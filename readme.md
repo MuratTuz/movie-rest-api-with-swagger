@@ -25,10 +25,10 @@ Run the project and access the documentation at:
 ## Screenshots
 See the result after construction:
 
-![image](https://github.com/MuratTuz/movie-rest-api-with-swagger/tree/main/public/view_1.png)
-![image](https://github.com/MuratTuz/movie-rest-api-with-swagger/tree/main/public/view_2.png)
-![image](https://github.com/MuratTuz/movie-rest-api-with-swagger/tree/main/public/view_3.png)
-![image](https://github.com/MuratTuz/movie-rest-api-with-swagger/tree/main/public/view_4.png)
+![image](https://github.com/MuratTuz/movie-rest-api-with-swagger/blob/main/public/view_1.png)
+![image](https://github.com/MuratTuz/movie-rest-api-with-swagger/blob/main/public/view_2.png)
+![image](https://github.com/MuratTuz/movie-rest-api-with-swagger/blob/main/public/view_3.png)
+![image](https://github.com/MuratTuz/movie-rest-api-with-swagger/blob/main/public/view_4.png)
 
 
 ## License
