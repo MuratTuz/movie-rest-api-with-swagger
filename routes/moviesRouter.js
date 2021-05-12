@@ -26,6 +26,14 @@ router.get('/:id', function (req, res, next) {
   //#swagger.tags = ['Movie']
   //#swagger.description = 'GET movie by id'
   const id = Number(req.params.id);
+  /*
+  #swagger.parameters['id'] = {
+    in: 'path',
+    description: 'Movie id existed in the database',
+    required: true,
+    type: 'integer'
+  }
+  */
   const movie = service.getMovieById(id);
 
   if (movie) {
@@ -72,6 +80,14 @@ router.put('/:id', function (req, res, next) {
   //#swagger.tags = ['Movie']
   //#swagger.description = 'Update a movie'
   const updatedMovieId = Number(req.params.id);
+  /*
+  #swagger.parameters['id'] = {
+    in: 'path',
+    description: 'Movie id existed in the database',
+    required: true,
+    type: 'integer'
+  }
+  */
   const updatedMovieBody = req.body;
     /* 
     #swagger.parameters['newMovie'] = {
@@ -98,6 +114,14 @@ router.delete('/:id', function (req, res, next) {
   //#swagger.tags = ['Movie']
   //#swagger.description = 'DELETE a movie by id '
   const id = Number(req.params.id);
+  /*
+  #swagger.parameters['id'] = {
+    in: 'path',
+    description: 'Movie id existed in the database',
+    required: true,
+    type: 'integer'
+  }
+  */
   const result = service.deleteMovieById(id);
   // #swagger.responses[200]
   // #swagger.description = 'The movie is deleted'

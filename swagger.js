@@ -31,27 +31,7 @@ const doc = {
             "income": 5498700
         },
         Movies:[
-            {
-                "id": 10002,
-                "name": "lord of the rings",
-                "year": "1999",
-                "genre": "adventure",
-                "income": 5498700
-             },
-            {
-                "id": 10003,
-                "name": "ghost",
-                "year": "1982",
-                "genre": "thrill",
-                "income": 235168
-            },
-            {
-                "id": 10004,
-                "name": "die hard",
-                "year": "1999",
-                "genre": "action",
-                "income": 10000000
-            }
+            { $ref: "#/definitions/Movie" }
         ],
         Rent:{
             "movieId": 10002,
@@ -59,21 +39,7 @@ const doc = {
             "person": "Hi Coders"
         },
         Rents:[
-            {
-                "movieId": 10002,
-                "duration": 10,
-                "person": "Hi Coders"
-            },
-            {
-                "movieId": 10003,
-                "duration": 3,
-                "person": "Murat"
-            },
-            {
-                "movieId": 10001,
-                "duration": 11,
-                "person": "Mehmet"
-            }
+            { $ref: "#/definitions/Rent" }
         ]
     }
 }

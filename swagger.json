@@ -88,7 +88,8 @@
             "name": "id",
             "in": "path",
             "required": true,
-            "type": "string"
+            "type": "integer",
+            "description": "Movie id existed in the database"
           }
         ],
         "responses": {
@@ -113,7 +114,8 @@
             "name": "id",
             "in": "path",
             "required": true,
-            "type": "string"
+            "type": "integer",
+            "description": "Movie id existed in the database"
           },
           {
             "name": "newMovie",
@@ -148,7 +150,8 @@
             "name": "id",
             "in": "path",
             "required": true,
-            "type": "string"
+            "type": "integer",
+            "description": "Movie id existed in the database"
           }
         ],
         "responses": {
@@ -190,7 +193,8 @@
             "name": "id",
             "in": "path",
             "required": true,
-            "type": "string"
+            "type": "integer",
+            "description": "Id of the movie which is already rented"
           }
         ],
         "responses": {
@@ -230,29 +234,7 @@
     "Movies": {
       "type": "array",
       "items": {
-        "type": "object",
-        "properties": {
-          "id": {
-            "type": "number",
-            "example": 10004
-          },
-          "name": {
-            "type": "string",
-            "example": "die hard"
-          },
-          "year": {
-            "type": "string",
-            "example": "1999"
-          },
-          "genre": {
-            "type": "string",
-            "example": "action"
-          },
-          "income": {
-            "type": "number",
-            "example": 10000000
-          }
-        }
+        "$ref": "#/definitions/Movie"
       }
     },
     "Rent": {
@@ -275,21 +257,7 @@
     "Rents": {
       "type": "array",
       "items": {
-        "type": "object",
-        "properties": {
-          "movieId": {
-            "type": "number",
-            "example": 10001
-          },
-          "duration": {
-            "type": "number",
-            "example": 11
-          },
-          "person": {
-            "type": "string",
-            "example": "Mehmet"
-          }
-        }
+        "$ref": "#/definitions/Rent"
       }
     }
   }
