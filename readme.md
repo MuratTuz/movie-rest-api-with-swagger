@@ -25,7 +25,10 @@ Run the project and access the documentation at:
 ## Screenshots
 See the result after construction:
 
-![](https://raw.githubusercontent.com/davibaltar/public-store/master/screen-swagger-autogen.png)
+![image](https://github.com/MuratTuz/movie-rest-api-with-swagger/tree/main/public/view_1.png)
+![image](https://github.com/MuratTuz/movie-rest-api-with-swagger/tree/main/public/view_2.png)
+![image](https://github.com/MuratTuz/movie-rest-api-with-swagger/tree/main/public/view_3.png)
+![image](https://github.com/MuratTuz/movie-rest-api-with-swagger/tree/main/public/view_4.png)
 
 
 ## License
