@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "nodemon app",
-    "swagger-autogen": "node swagger.js"
+    "start": "npm run swagger-gen && nodemon app",
+    "swagger-gen": "node swagger.js"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
